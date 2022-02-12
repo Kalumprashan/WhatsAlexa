@@ -31,6 +31,10 @@
             "required": true,
             "value": "false"
         },
+        "WHTS_PASSWORD": {
+            "description": "Password in whatspp group",
+            "required": true
+        },
         "REMOVE_BG_API_KEY": {
             "description": "enter remove bg api key, Login to this site ( remove.bg ) to get api key.",
             "required": true,
