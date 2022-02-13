@@ -16,6 +16,10 @@
             "description": "It gives all the privileges to the users. => 91xxx,0,91xxx,0,91xxx...",
             "required": false
         },
+        "WHTS_PASSWORD": {
+            "description": "Password in whatspp group",
+            "required": true
+        },
         "LANGUAGE": {
             "description": "Bot languages. Malayalam => ML, Indonesia => ID, English => EN ( Enter any one only )",
             "required": true,
@@ -84,10 +88,6 @@
             "description": "WhatsAlexa Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
-        },
-        "WHTS_PASSWORD": {
-            "description": "Password in whatspp group",
-            "required": true
         },
         "BOT_PRESENCE": {
             "description": "Type the Presence of bot, presences: online => Always Shows the online, offline => Always Shows offline, typing => Always Shows typing, recording => Always Shows recording.. NOTE : THE PRESENCE WILL BE PERMANENT, UNTIL THE BOT IS ALIVE / RUNNING / WORKING",
