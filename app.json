@@ -19,6 +19,7 @@
         "WHTS_PASSWORD": {
             "description": "Password in whatspp group",
             "required": true
+            "value": "whatsalexa"
         },
         "LANGUAGE": {
             "description": "Bot languages. Malayalam => ML, Indonesia => ID, English => EN ( Enter any one only )",
