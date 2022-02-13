@@ -108,13 +108,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         console.log(
             chalk.blueBright.italic('Confirming password...')
         );
-        if (config.KTB1 == 'shefinkl14' || config.KTB1 == 'whatsalexa') {
-        //thanks to afnanplk
+        if (config.SNKL == 'shefinkl14' || config.SNKL == 'whatsalexa') {
+        // shefin kl14
         console.log(
             chalk.green.bold('Thanks For Visiting Our Whatsapp Group -passwrod cofirmed-')
         );
          }
-         else if (config.KTB1 == 'shefinkl14' || config.KTB1 == 'whatsalexa') {
+         else if (config.SNKL == 'shefinkl14' || config.SNKL == 'whatsalexa') {
          console.log(
             chalk.red.bold('make sure you have typed the correct password'));
          throw new Error("Password Error ⚠⚠ ");         
