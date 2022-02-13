@@ -18,7 +18,7 @@ module.exports = {
     OWNERNUM: process.env.OWNER_NUMBER === undefined ? '919567489404' : process.env.OWNER_NUMBER,
     SN14: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
     AUTOBIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
-    SNKL: process.env.WHTS_PASSWORD === undefined ? false : process.env.WHTS_PASSWORD,
+    SNKL: process.env.WHTS_PASSWORD === undefined ? 'whatsalexa' : process.env.WHTS_PASSWORD,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
